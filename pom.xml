@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.codehaus.sonar</groupId>
+  <artifactId>maven-mem</artifactId>
+  <version>1.0</version>
+
+  <name>Simple Java Maven Project</name>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<sonar.language>c++</sonar.language>
+  </properties>
+  
+  <build>
+     <sourceDirectory>src</sourceDirectory>
+	  <pluginManagement>
+		 <plugins>
+		   <plugin>
+		     <groupId>org.codehaus.mojo</groupId>
+		     <artifactId>sonar-maven-plugin</artifactId>
+		     <version>${sonarVersion}</version>
+		   </plugin>
+		 <plugins>
+	  </pluginManagement>
+	</build>
+	<profile>
+	  <id>maven-2</id>
+	  <activation>
+		 <file>
+		   <!-- basedir expression is only recognized by Maven 3.x (see MNG-2363) -->
+		   <missing>${basedir}</missing>
+		 </file>
+	  </activation>
+	  <properties>
+		 <sonarVersion>1.0</sonarVersion>
+	  </properties>
+	</profile>
+	<profile>
+	  <id>maven-3</id>
+	  <activation>
+		 <file>
+		   <!-- basedir expression is only recognized by Maven 3.x (see MNG-2363) -->
+		   <exists>${basedir}</exists>
+		 </file>
+	  </activation>
+	  <properties>
+		 <sonarVersion>2.0</sonarVersion>
+	  </properties>
+	</profile>
+
+</project>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results>
+<error file="src/GLMainScene.cc" line="100" id="uninitVar" severity="style" msg="Member variable 'GLMainScene::modelo' is not initialized in the constructor."/>
+<error file="src/GLMainScene.cc" line="100" id="uninitVar" severity="style" msg="Member variable 'GLMainScene::muestraTodosFrames' is not initialized in the constructor."/>
+<error file="src/GLMainScene.cc" line="35" id="comparisonOfBoolWithInt" severity="style" msg="Comparison of a boolean with integer that is neither 1 nor 0"/>
+<error file="src/GUIDialogInicio.hh" line="15" id="noConstructor" severity="style" msg="The class 'GUIDialogInicio' does not have a constructor."/>
+<error file="src/GUIFaceMatcher.cc" line="163" id="unusedVariable" severity="style" msg="Unused variable: nk"/>
+<error file="src/GUIVentanaPrincipal.cc" line="475" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+<error file="src/GUIVentanaPrincipal.cc" line="507" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+<error file="src/GUIVentanaPrincipal.cc" line="178" id="variableScope" severity="style" msg="The scope of the variable 'tipofiltro' can be reduced"/>
+<error file="src/GUIVentanaPrincipal.cc" line="626" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+<error file="src/LoadTextures.cpp" line="91" id="resourceLeak" severity="error" msg="Resource leak: file"/>
+<error file="src/ScalesForParameters.cc" line="9" id="uninitVar" severity="style" msg="Member variable 'ScalesForParameters::gmm_data' is not initialized in the constructor."/>
+<error file="src/SimpleGLScenePrimario.cc" line="51" id="unreadVariable" severity="style" msg="Variable 'miz' is assigned a value that is never used"/>
+<error file="src/SimpleGLScenePrimario.cc" line="53" id="unreadVariable" severity="style" msg="Variable 'mix' is assigned a value that is never used"/>
+<error file="src/SimpleGLScenePrimario.cc" line="60" id="unreadVariable" severity="style" msg="Variable 'translatex' is assigned a value that is never used"/>
+<error file="src/almacenatocomsol_1.cpp" line="59" id="mismatchAllocDealloc" severity="error" msg="Mismatching allocation and deallocation: nuevoIndiceNodos"/>
+<error file="src/almacenatooff.cpp" line="38" id="unreadVariable" severity="style" msg="Variable 'conc_prom' is assigned a value that is never used"/>
+<error file="src/almacenatooff.cpp" line="47" id="mismatchAllocDealloc" severity="error" msg="Mismatching allocation and deallocation: nuevoIndiceNodos"/>
+<error file="src/almacenatoxyzu.cpp" line="111" id="mismatchAllocDealloc" severity="error" msg="Mismatching allocation and deallocation: nuevoIndiceNodos"/>
+<error file="src/arcos.cpp" line="39" id="stlSize" severity="style" msg="Possible inefficient checking for 'borrados' emptiness."/>
+<error file="src/cara.cpp" line="4" id="uninitVar" severity="style" msg="Member variable 'Cara::num_elem' is not initialized in the constructor."/>
+<error file="src/cara.cpp" line="4" id="uninitVar" severity="style" msg="Member variable 'Cara::rgb' is not initialized in the constructor."/>
+<error file="src/cara.cpp" line="60" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+<error file="src/cara.cpp" line="127" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+<error file="src/caras.cpp" line="39" id="stlSize" severity="style" msg="Possible inefficient checking for 'borrados' emptiness."/>
+<error file="src/cuadrangular.cpp" line="12" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+<error file="src/cuadrangular.cpp" line="5" id="uninitVar" severity="style" msg="Member variable 'Cuadrangular::nueva_malla' is not initialized in the constructor."/>
+<error file="src/delaunaylongestedgebisection.cpp" line="16" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+<error file="src/desrefinamientoedgecollapse.cpp" line="20" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+<error file="src/generacilindro.cpp" line="3" id="uninitVar" severity="style" msg="Member variable 'GeneraCilindro::nodos' is not initialized in the constructor."/>
+<error file="src/generacilindro.cpp" line="3" id="uninitVar" severity="style" msg="Member variable 'GeneraCilindro::arcos' is not initialized in the constructor."/>
+<error file="src/generacilindro.cpp" line="3" id="uninitVar" severity="style" msg="Member variable 'GeneraCilindro::caras' is not initialized in the constructor."/>
+<error file="src/generafromarchivosxyzu.cpp" line="26" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromarchivosxyzu.cpp" line="27" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromarchivosxyzu.cpp" line="28" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromarchivosxyzu.cpp" line="29" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromarchivosxyzu.cpp" line="35" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromarchivosxyzu.cpp" line="36" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromarchivosxyzu.cpp" line="37" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromarchivosxyzu.cpp" line="38" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromarchivosxyzu.cpp" line="42" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromarchivosxyzu.cpp" line="43" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromarchivosxyzu.cpp" line="44" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromarchivosxyzu.cpp" line="75" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromarchivosxyzu.cpp" line="83" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromarchivosxyzu.cpp" line="129" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromarchivosxyzu.cpp" line="130" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromarchivosxyzu.cpp" line="131" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromarchivosxyzu.cpp" line="132" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafrommatlab.cpp" line="37" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafrommatlab.cpp" line="53" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafrommatlab.cpp" line="258" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafrommatlab.cpp" line="274" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafrommedula.cpp" line="7" id="uninitVar" severity="style" msg="Member variable 'GeneraFromMedula::nodos' is not initialized in the constructor."/>
+<error file="src/generafrommedula.cpp" line="7" id="uninitVar" severity="style" msg="Member variable 'GeneraFromMedula::arcos' is not initialized in the constructor."/>
+<error file="src/generafrommedula.cpp" line="7" id="uninitVar" severity="style" msg="Member variable 'GeneraFromMedula::caras' is not initialized in the constructor."/>
+<error file="src/generafromoff.cpp" line="17" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromoff.cpp" line="22" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromoff.cpp" line="26" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromoff.cpp" line="44" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromoff.cpp" line="46" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromoff.cpp" line="56" id="invalidscanf" severity="style" msg="scanf without field width limits can crash with huge input data"/>
+<error file="src/generafromwrl.cpp" line="245" id="duplicateBreak" severity="style" msg="Consecutive return, break, continue, goto or throw statements are unnecessary"/>
+<error file="src/generafromwrl.cpp" line="20" id="unreadVariable" severity="style" msg="Variable 'num_caras' is assigned a value that is never used"/>
+<error file="src/generafromwrl.cpp" line="27" id="unreadVariable" severity="style" msg="Variable 'ppp' is assigned a value that is never used"/>
+<error file="src/generar.cpp" line="27" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+<error file="src/generar.cpp" line="29" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+<error file="src/generar.cpp" line="31" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+<error file="src/informar.cpp" line="3" id="uninitVar" severity="style" msg="Member variable 'Informar::info' is not initialized in the constructor."/>
+<error file="src/interpoladorNodosCercanos.cpp" line="12" id="unreadVariable" severity="style" msg="Variable 'counterr' is assigned a value that is never used"/>
+<error file="src/leppdelaunay.cpp" line="23" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+<error file="src/leppdelaunay.cpp" line="55" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+<error file="src/leppdelaunay.cpp" line="89" id="unreadVariable" severity="style" msg="Variable 'boundary_t' is assigned a value that is never used"/>
+<error file="src/malla.cpp" line="1227" id="unreadVariable" severity="style" msg="Variable 'sumay' is assigned a value that is never used"/>
+<error file="src/malla.cpp" line="8" id="uninitVar" severity="style" msg="Member variable 'Malla::movimientos' is not initialized in the constructor."/>
+<error file="src/malla.cpp" line="21" id="uninitVar" severity="style" msg="Member variable 'Malla::movimientos' is not initialized in the constructor."/>
+<error file="src/mallatriangulos.cpp" line="262" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+<error file="src/mejdelaunay.cpp" line="10" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+<error file="src/nodo.cpp" line="99" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+<error file="src/nodo.cpp" line="109" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+<error file="src/nodo.cpp" line="120" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+<error file="src/nodo.cpp" line="146" id="postfixOperator" severity="style" msg="Prefer prefix ++/-- operators for non-primitive types."/>
+<error file="src/nodos.cpp" line="407" id="unreachableCode" severity="style" msg="Statements following return, break, continue, goto or throw will never be executed"/>
+<error file="src/nodos.cpp" line="155" id="variableScope" severity="style" msg="The scope of the variable 'x' can be reduced"/>
+<error file="src/nodos.cpp" line="155" id="variableScope" severity="style" msg="The scope of the variable 'y' can be reduced"/>
+<error file="src/nodos.cpp" line="155" id="variableScope" severity="style" msg="The scope of the variable 'z' can be reduced"/>
+<error file="src/nodos.cpp" line="177" id="variableScope" severity="style" msg="The scope of the variable 'x1' can be reduced"/>
+<error file="src/nodos.cpp" line="177" id="variableScope" severity="style" msg="The scope of the variable 'y1' can be reduced"/>
+<error file="src/nodos.cpp" line="177" id="variableScope" severity="style" msg="The scope of the variable 'z1' can be reduced"/>
+<error file="src/nodos.cpp" line="208" id="variableScope" severity="style" msg="The scope of the variable 'x' can be reduced"/>
+<error file="src/nodos.cpp" line="208" id="variableScope" severity="style" msg="The scope of the variable 'y' can be reduced"/>
+<error file="src/nodos.cpp" line="208" id="variableScope" severity="style" msg="The scope of the variable 'z' can be reduced"/>
+<error file="src/nodos.cpp" line="886" id="variableScope" severity="style" msg="The scope of the variable 'x' can be reduced"/>
+<error file="src/nodos.cpp" line="886" id="variableScope" severity="style" msg="The scope of the variable 'y' can be reduced"/>
+<error file="src/nodos.cpp" line="886" id="variableScope" severity="style" msg="The scope of the variable 'z' can be reduced"/>
+<error file="src/nodos.cpp" line="908" id="variableScope" severity="style" msg="The scope of the variable 'x' can be reduced"/>
+<error file="src/nodos.cpp" line="908" id="variableScope" severity="style" msg="The scope of the variable 'y' can be reduced"/>
+<error file="src/nodos.cpp" line="908" id="variableScope" severity="style" msg="The scope of the variable 'z' can be reduced"/>
+<error file="src/nodos.cpp" line="51" id="uninitVar" severity="style" msg="Member variable 'Nodos::n_marcados' is not initialized in the constructor."/>
+<error file="src/nodos.cpp" line="3" id="uninitVar" severity="style" msg="Member variable 'Nodos::n_marcados' is not initialized in the constructor."/>
+<error file="src/nodos.cpp" line="16" id="uninitVar" severity="style" msg="Member variable 'Nodos::n_marcados' is not initialized in the constructor."/>
+<error file="src/nodos.cpp" line="90" id="stlSize" severity="style" msg="Possible inefficient checking for 'borrados' emptiness."/>
+<error file="src/triangular.cpp" line="10" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+<error file="src/triangular.cpp" line="5" id="uninitVar" severity="style" msg="Member variable 'Triangular::nueva_malla' is not initialized in the constructor."/>
+<error file="src/verificacionlocal.cpp" line="21" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+<error file="src/verificacionlocal.cpp" line="70" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+<error file="src/verificacionlocal.cpp" line="121" id="variableScope" severity="style" msg="The scope of the variable 'dist_movida' can be reduced"/>
+<error file="src/verificacionlocal.cpp" line="31" id="stlSize" severity="style" msg="Possible inefficient checking for 'raices' emptiness."/>
+<error file="src/verificacionlocal.cpp" line="83" id="stlSize" severity="style" msg="Possible inefficient checking for 'raices' emptiness."/>
+<error file="src/verificacionlocal.cpp" line="122" id="stlSize" severity="style" msg="Possible inefficient checking for 'arcos_inconsistentes' emptiness."/>
+<error file="src/verificacionnodosvecinos.cpp" line="152" id="cstyleCast" severity="style" msg="C-style pointer casting"/>
+</results>

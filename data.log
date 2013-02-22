@@ -1,0 +1,969 @@
+Runner configuration file: /home/niko/Descargas/sonar-runner-2.0/conf/sonar-runner.properties
+Project configuration file: /home/niko/Escritorio/FaceParamAnimator/sonar-project.properties
+Runner version: 2.0
+Java version: 1.6.0_24, vendor: Sun Microsystems Inc.
+OS name: "Linux", version: "3.2.0-33-generic-pae", arch: "i386"
+Default locale: "es_ES", source code encoding: "UTF-8" (analysis is platform dependent)
+Other system properties:
+  - sun.arch.data.model: "32"
+Server: http://localhost:9000
+Work directory: /home/niko/Escritorio/FaceParamAnimator/.sonar
+13:07:19.761 DEBUG .b.b.TempDirectories - Temporary directory: /tmp/sonar-batch5519104667695990833991096292345
+13:07:19.783 INFO  .s.b.b.BatchSettings - Load project settings
+13:07:19.788 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/batch_bootstrap/properties?project=memoria (no proxy)
+13:07:20.015 INFO  atchPluginRepository - Install plugins
+13:07:20.015 DEBUG b.b.PluginDownloader - Downloading index of plugins
+13:07:20.015 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/index.txt (no proxy)
+13:07:20.027 DEBUG b.b.PluginDownloader - Downloading plugin findbugs into /tmp/sonar-batch5519104667695990833991096292345/plugins/findbugs
+13:07:20.034 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/findbugs/sonar-findbugs-plugin-1.1.jar (no proxy)
+13:07:20.131 DEBUG atchPluginRepository - Excluded plugin: findbugs
+13:07:20.131 DEBUG b.b.PluginDownloader - Downloading plugin c into /tmp/sonar-batch5519104667695990833991096292345/plugins/c
+13:07:20.131 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/c/sonar-c-plugin-1.8.jar (no proxy)
+13:07:20.187 DEBUG atchPluginRepository - Excluded plugin: c
+13:07:20.187 DEBUG b.b.PluginDownloader - Downloading plugin jacoco into /tmp/sonar-batch5519104667695990833991096292345/plugins/jacoco
+13:07:20.187 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/jacoco/sonar-jacoco-plugin-1.1.jar (no proxy)
+13:07:20.200 DEBUG atchPluginRepository - Excluded plugin: jacoco
+13:07:20.200 DEBUG b.b.PluginDownloader - Downloading plugin l10nen into /tmp/sonar-batch5519104667695990833991096292345/plugins/l10nen
+13:07:20.200 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/l10nen/sonar-l10n-en-plugin-3.4.1.jar (no proxy)
+13:07:20.204 DEBUG atchPluginRepository - Excluded plugin: l10nen
+13:07:20.205 DEBUG b.b.PluginDownloader - Downloading plugin widgetlab into /tmp/sonar-batch5519104667695990833991096292345/plugins/widgetlab
+13:07:20.205 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/widgetlab/sonar-widget-lab-plugin-1.3.1.jar (no proxy)
+13:07:20.209 DEBUG atchPluginRepository - Excluded plugin: widgetlab
+13:07:20.209 DEBUG b.b.PluginDownloader - Downloading plugin csvexport into /tmp/sonar-batch5519104667695990833991096292345/plugins/csvexport
+13:07:20.209 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/csvexport/sonar-csv-export-plugin-1.3.jar (no proxy)
+13:07:20.213 DEBUG atchPluginRepository - Excluded plugin: csvexport
+13:07:20.214 DEBUG b.b.PluginDownloader - Downloading plugin surefire into /tmp/sonar-batch5519104667695990833991096292345/plugins/surefire
+13:07:20.214 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/surefire/sonar-surefire-plugin-1.1.jar (no proxy)
+13:07:20.219 DEBUG atchPluginRepository - Excluded plugin: surefire
+13:07:20.219 DEBUG b.b.PluginDownloader - Downloading plugin cpd into /tmp/sonar-batch5519104667695990833991096292345/plugins/cpd
+13:07:20.220 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/cpd/sonar-cpd-plugin-3.4.1.jar (no proxy)
+13:07:20.223 DEBUG atchPluginRepository - Excluded plugin: cpd
+13:07:20.224 DEBUG b.b.PluginDownloader - Downloading plugin cxx into /tmp/sonar-batch5519104667695990833991096292345/plugins/cxx
+13:07:20.224 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/cxx/sonar-cxx-plugin-0.1.jar (no proxy)
+13:07:20.275 DEBUG atchPluginRepository - Excluded plugin: cxx
+13:07:20.275 DEBUG b.b.PluginDownloader - Downloading plugin checkstyle into /tmp/sonar-batch5519104667695990833991096292345/plugins/checkstyle
+13:07:20.275 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/checkstyle/sonar-checkstyle-plugin-1.1.jar (no proxy)
+13:07:20.282 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/checkstyle/README.txt (no proxy)
+13:07:20.296 DEBUG atchPluginRepository - Excluded plugin: checkstyle
+13:07:20.296 DEBUG b.b.PluginDownloader - Downloading plugin pmd into /tmp/sonar-batch5519104667695990833991096292345/plugins/pmd
+13:07:20.297 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/pmd/sonar-pmd-plugin-1.1.jar (no proxy)
+13:07:20.303 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/pmd/README.txt (no proxy)
+13:07:20.326 DEBUG atchPluginRepository - Excluded plugin: pmd
+13:07:20.326 DEBUG b.b.PluginDownloader - Downloading plugin core into /tmp/sonar-batch5519104667695990833991096292345/plugins/core
+13:07:20.326 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/core/sonar-core-plugin-3.4.1.jar (no proxy)
+13:07:20.329 DEBUG atchPluginRepository - Excluded plugin: core
+13:07:20.329 DEBUG b.b.PluginDownloader - Downloading plugin java into /tmp/sonar-batch5519104667695990833991096292345/plugins/java
+13:07:20.330 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/java/sonar-java-plugin-1.1.jar (no proxy)
+13:07:20.332 DEBUG atchPluginRepository - Excluded plugin: java
+13:07:20.333 DEBUG b.b.PluginDownloader - Downloading plugin dbcleaner into /tmp/sonar-batch5519104667695990833991096292345/plugins/dbcleaner
+13:07:20.333 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/dbcleaner/sonar-dbcleaner-plugin-3.4.1.jar (no proxy)
+13:07:20.335 DEBUG atchPluginRepository - Excluded plugin: dbcleaner
+13:07:20.335 DEBUG b.b.PluginDownloader - Downloading plugin artifactsize into /tmp/sonar-batch5519104667695990833991096292345/plugins/artifactsize
+13:07:20.335 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/artifactsize/sonar-artifact-size-plugin-0.3.jar (no proxy)
+13:07:20.337 DEBUG atchPluginRepository - Excluded plugin: artifactsize
+13:07:20.338 DEBUG b.b.PluginDownloader - Downloading plugin squidjava into /tmp/sonar-batch5519104667695990833991096292345/plugins/squidjava
+13:07:20.338 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/squidjava/sonar-squid-java-plugin-1.1.jar (no proxy)
+13:07:20.356 DEBUG atchPluginRepository - Excluded plugin: squidjava
+13:07:20.356 DEBUG b.b.PluginDownloader - Downloading plugin cobertura into /tmp/sonar-batch5519104667695990833991096292345/plugins/cobertura
+13:07:20.357 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/cobertura/sonar-cobertura-plugin-1.1.jar (no proxy)
+13:07:20.360 DEBUG atchPluginRepository - Excluded plugin: cobertura
+13:07:20.360 DEBUG b.b.PluginDownloader - Downloading plugin emailnotifications into /tmp/sonar-batch5519104667695990833991096292345/plugins/emailnotifications
+13:07:20.360 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/emailnotifications/sonar-email-notifications-plugin-3.4.1.jar (no proxy)
+13:07:20.372 DEBUG atchPluginRepository - Excluded plugin: emailnotifications
+13:07:20.373 DEBUG b.b.PluginDownloader - Downloading plugin design into /tmp/sonar-batch5519104667695990833991096292345/plugins/design
+13:07:20.373 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/design/sonar-design-plugin-3.4.1.jar (no proxy)
+13:07:20.384 DEBUG atchPluginRepository - Excluded plugin: design
+13:07:20.384 DEBUG b.b.PluginDownloader - Downloading plugin uselesscodetracker into /tmp/sonar-batch5519104667695990833991096292345/plugins/uselesscodetracker
+13:07:20.384 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/plugins/uselesscodetracker/sonar-useless-code-tracker-plugin-0.5.jar (no proxy)
+13:07:20.386 DEBUG atchPluginRepository - Excluded plugin: uselesscodetracker
+13:07:20.934 DEBUG s.b.b.MetricProvider - Load metrics
+13:07:21.322 DEBUG  o.s.c.i.I18nManager - Loaded 2539 properties from l10n bundles
+13:07:21.327 INFO  .b.ProjectExclusions - Apply project exclusions
+13:07:21.327 INFO  b.b.JdbcDriverHolder - Install JDBC driver
+13:07:21.327 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/deploy/jdbc-driver.jar (no proxy)
+13:07:21.339 WARN  .c.p.DefaultDatabase - H2 database should be used for evaluation purpose only
+13:07:21.339 INFO      o.s.c.p.Database - Create JDBC datasource for jdbc:h2:tcp://localhost/sonar
+13:07:21.430 DEBUG     o.s.c.p.Database - Testing JDBC connection
+13:07:21.434 INFO  actDatabaseConnector - Initializing Hibernate
+13:07:21.436 DEBUG actDatabaseConnector - hibernate.generate_statistics: false
+13:07:21.436 DEBUG actDatabaseConnector - hibernate.dialect: org.hibernate.dialect.H2Dialect
+13:07:21.437 DEBUG actDatabaseConnector - hibernate.connection.provider_class: org.sonar.jpa.session.CustomHibernateConnectionProvider
+13:07:21.437 DEBUG actDatabaseConnector - hibernate.hbm2ddl.auto: validate
+13:07:23.586 DEBUG  o.s.b.b.ProjectLock - Acquire semaphore on project : org.sonar.api.resources.Project@825cf3[id=1,key=memoria,qualifier=TRK], with key batch-memoria
+13:07:23.597 DEBUG er$HttpInputSupplier - Download: http://localhost:9000/api/server (no proxy)
+13:07:23.622 INFO  .s.b.b.ProjectModule - -------------  Analyzing Memoria
+13:07:23.630 INFO  .b.b.ProjectSettings - Load module settings
+13:07:24.923 INFO  .s.b.ProfileProvider - Quality profile : [name=Default C++ Profile,language=c++]
+13:07:24.970 INFO  nPluginsConfigurator - Configure maven plugins...
+13:07:25.108 INFO        org.sonar.INFO - Compare to previous analysis (2013-02-21)
+13:07:25.153 INFO        org.sonar.INFO - Compare over 5 days (2013-02-16, analysis of 2013-02-17 01:36:43.452)
+13:07:25.200 INFO        org.sonar.INFO - Compare over 30 days (2013-01-22, analysis of 2013-02-17 01:36:43.452)
+13:07:25.324 DEBUG .b.p.SensorsExecutor - Initializers : ProjectFileSystemLogger
+13:07:25.324 INFO  .b.p.SensorsExecutor - Initializer ProjectFileSystemLogger...
+13:07:25.325 INFO  jectFileSystemLogger - Excluded tests: [**/package-info.java]
+13:07:25.329 INFO  jectFileSystemLogger - Source directories:
+13:07:25.329 INFO  jectFileSystemLogger -   /home/niko/Escritorio/FaceParamAnimator/src
+13:07:25.330 INFO  .b.p.SensorsExecutor - Initializer ProjectFileSystemLogger done: 6 ms
+13:07:25.365 DEBUG p.PhasesTimeProfiler - Sensors : CxxSourceImporter -> CpdSensor -> CxxSquidSensor -> CxxRatsSensor -> CxxXunitSensor -> CxxGcovrSensor -> CxxCppCheckSensor -> CxxCppNcssSensor -> CxxVeraxxSensor -> CxxValgrindSensor -> ProfileSensor -> ProfileEventsSensor -> ProjectLinksSensor -> VersionEventsSensor -> org.sonar.plugins.artifactsize.ArtifactSizeSensor@13596e0
+13:07:25.365 INFO  p.PhasesTimeProfiler - Sensor CxxSourceImporter...
+13:07:26.402 INFO  p.PhasesTimeProfiler - Sensor CxxSourceImporter done: 1037 ms
+13:07:26.402 INFO  p.PhasesTimeProfiler - Sensor CpdSensor...
+13:07:26.403 INFO   o.s.p.cpd.CpdSensor - SonarBridgeEngine is used
+13:07:26.417 INFO  s.p.c.i.IndexFactory - Cross-project analysis disabled
+13:07:26.423 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/almacenatomlldebug.cpp
+13:07:26.439 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/generar.h
+13:07:26.441 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/algcentrotriangulo.h
+13:07:26.442 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/interfacemanualregistration.cpp
+13:07:26.443 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogCambios.cc
+13:07:26.446 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaPrincipal.cc
+13:07:26.495 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/algmejoramientomallacuadrilateros.h
+13:07:26.517 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDesrefinar.hh
+13:07:26.519 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/algdesplazamientomallatriangulos.h
+13:07:26.519 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDesrefinar_glade.cc
+13:07:26.544 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GLMainScene.cc
+13:07:26.636 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/generafrommedula.cpp
+13:07:26.690 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/mejorar.cpp
+13:07:26.701 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/generafromwfm.cpp
+13:07:26.737 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/verificacionlocal.h
+13:07:26.743 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/mejorar.h
+13:07:26.748 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaPrincipal.hh
+13:07:26.751 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/generafromoff.cpp
+13:07:26.775 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUI_AUVSelector.cc
+13:07:26.789 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/refinar.cpp
+13:07:26.797 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaTreeGrowth.cpp
+13:07:26.810 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAbrirMatlab_glade.hh
+13:07:26.811 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogRefinar_glade.cc
+13:07:26.822 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/mallatriangulos.cpp
+13:07:26.920 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/interpoladorMixto.h
+13:07:26.921 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/SimpleGLScenePrimario.cc
+13:07:26.961 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/cuadrangular.h
+13:07:26.973 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/movimientosAUV.cpp
+13:07:26.999 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/triangular.h
+13:07:26.999 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIFaceMatcher.cc
+13:07:27.003 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAlgCentro_glade.cc
+13:07:27.017 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/movimientosFromFile.cpp
+13:07:27.019 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/desrefinamientoedgecollapse.h
+13:07:27.021 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogNuevaMalla.cc
+13:07:27.026 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/generafrommatlab.cpp
+13:07:27.047 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/guardar.h
+13:07:27.048 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/LoadTextures.h
+13:07:27.061 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/generafromarchivosxyzu.h
+13:07:27.062 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInicio.hh
+13:07:27.062 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/generafromoff.h
+13:07:27.063 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/informar.cpp
+13:07:27.064 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/polinomio.cpp
+13:07:27.078 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDistribuirHormona_glade.hh
+13:07:27.098 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUI_AUVSelector.hh
+13:07:27.099 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/noverificacion.h
+13:07:27.100 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/malla.h
+13:07:27.101 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/areacara.cpp
+13:07:27.122 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/algdesplazamientomallacuadrilateros.h
+13:07:27.124 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/desrefinamientoedgecollapse.cpp
+13:07:27.124 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/fabricaalgoritmosmallacuadrilateros.cpp
+13:07:27.125 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/SimpleGLSceneSecundario.cc
+13:07:27.125 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/triangulo.h
+13:07:27.126 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/verificacionlocal.cpp
+13:07:27.127 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/nodos.cpp
+13:07:27.153 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/definiciones.h
+13:07:27.161 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/cara.h
+13:07:27.162 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDistribuirHormona_glade.cc
+13:07:27.175 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/fabricaalgoritmosmallacuadrilateros.h
+13:07:27.178 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIFaceMatcher.hh
+13:07:27.179 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/largoarcominimo.cpp
+13:07:27.180 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/nodo.cpp
+13:07:27.182 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/caras.h
+13:07:27.183 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/informar.h
+13:07:27.183 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/almacenatooff.h
+13:07:27.184 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/noverificacion.cpp
+13:07:27.184 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/SimpleGLSceneSecundario.hh
+13:07:27.188 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/comando.cpp
+13:07:27.189 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/largoarcomaximo.cpp
+13:07:27.190 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/alggeneracion.h
+13:07:27.192 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaFaceModeling.hh
+13:07:27.192 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GLMainScene.hh
+13:07:27.193 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/delaunaylongestedgebisection.cpp
+13:07:27.195 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogNuevaMalla.hh
+13:07:27.196 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaPrincipal_glade.hh
+13:07:27.199 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/treegrowthsimulator.cc
+13:07:27.210 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/lepp.cpp
+13:07:27.214 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaTreeGrowth.hh
+13:07:27.216 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/deformar.h
+13:07:27.217 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/nodo.h
+13:07:27.218 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/comando.h
+13:07:27.218 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/SimpleGLScene.cc
+13:07:27.220 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/SimpleGLScene.hh
+13:07:27.221 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/algrefinamiento.h
+13:07:27.226 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/adaptercomputationalgeometry.h
+13:07:27.226 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/informacionmalla.h
+13:07:27.227 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUI_AUVSelector_glade.cc
+13:07:27.228 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/leppdelaunay.h
+13:07:27.228 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/algrefinamientomallatriangulos.h
+13:07:27.228 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/segmenttriangleintersection.cpp
+13:07:27.232 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/areacara.h
+13:07:27.233 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/cuadrilatero.cpp
+13:07:27.242 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogCambios_glade.hh
+13:07:27.250 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/interpoladorMixto.cpp
+13:07:27.256 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInformacion_glade.cc
+13:07:27.282 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/mejdelaunay.h
+13:07:27.283 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/malla.cpp
+13:07:27.318 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/algalmacenamiento.h
+13:07:27.319 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/fabricaalgoritmosmallatriangulos.cpp
+13:07:27.320 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAlgCentro.cc
+13:07:27.320 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/generafromwrl.cpp
+13:07:27.322 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/angulominimo.cpp
+13:07:27.322 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/movimientosFromFile.h
+13:07:27.322 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/mallacuadrilateros.h
+13:07:27.323 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/interpoladorNodosCercanos.cpp
+13:07:27.324 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/algTriangulacion.h
+13:07:27.327 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/verificacionnodosvecinos.cpp
+13:07:27.328 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogRefinar.cc
+13:07:27.341 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/interfacemanualregistration.h
+13:07:27.345 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAlgCentro.hh
+13:07:27.346 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAlgCentro_glade.hh
+13:07:27.347 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/angulominimo.h
+13:07:27.350 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/cuadrilatero.h
+13:07:27.352 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/verificacionnodosvecinoscolapsoregion.cpp
+13:07:27.361 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/generafromcomsol_1.cpp
+13:07:27.363 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/informacionmalla.cpp
+13:07:27.364 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/algdesrefinamientomallacuadrilateros.h
+13:07:27.365 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/fabricaalgoritmosmallatriangulos.h
+13:07:27.365 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/almacenatoxyzu.cpp
+13:07:27.366 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/mallacuadrilateros.cpp
+13:07:27.372 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/almacenatomlldebug.h
+13:07:27.373 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/ScalesForParameters.cc
+13:07:27.373 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/desrefinar.cpp
+13:07:27.374 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/algmejoramiento.h
+13:07:27.374 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInformacion.cc
+13:07:27.376 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/almacenatooff.cpp
+13:07:27.383 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInicio.cc
+13:07:27.384 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/generafromwfm.h
+13:07:27.385 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/generar.cpp
+13:07:27.385 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIFaceMatcher_glade.hh
+13:07:27.386 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/largoarcomaximo.h
+13:07:27.386 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/verificacionnodosvecinoscolapsoregion.h
+13:07:27.387 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/baricentro.h
+13:07:27.387 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDistribuirHormona.cc
+13:07:27.387 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/LoadTextures.cpp
+13:07:27.388 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/generafromcomsol_1.h
+13:07:27.392 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/triangulo.cpp
+13:07:27.393 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/config.h
+13:07:27.394 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/algdesrefinamientomallatriangulos.h
+13:07:27.395 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaFaceModeling.cpp
+13:07:27.400 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/ScalesForParameters.h
+13:07:27.401 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/guardar.cpp
+13:07:27.402 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/punto.cpp
+13:07:27.403 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/interpoladorNodosCercanos.h
+13:07:27.403 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/vect.h
+13:07:27.404 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogNuevaMalla_glade.cc
+13:07:27.407 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAbrirMatlab_glade.cc
+13:07:27.429 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/generafrommatlab.h
+13:07:27.430 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/leppdelaunay.cpp
+13:07:27.437 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUI_AUVSelector_glade.hh
+13:07:27.448 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/cara.cpp
+13:07:27.451 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/movimientosNodos.h
+13:07:27.451 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/arco.cpp
+13:07:27.452 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogRefinar_glade.hh
+13:07:27.453 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/mallatriangulos.h
+13:07:27.454 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/almacenatocomsol_1.h
+13:07:27.454 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInformacion.hh
+13:07:27.455 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/generafromarchivosxyzu.cpp
+13:07:27.455 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDistribuirHormona.hh
+13:07:27.456 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/arcos.h
+13:07:27.456 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/segmenttriangleintersection.h
+13:07:27.456 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/generafromwrl.h
+13:07:27.457 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/largoarcominimo.h
+13:07:27.457 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDesrefinar.cc
+13:07:27.457 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/lepp.h
+13:07:27.457 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/arco.h
+13:07:27.458 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaPrincipal_glade.cc
+13:07:27.463 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogNuevaMalla_glade.hh
+13:07:27.475 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/registrationmethod.h
+13:07:27.476 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogCambios.hh
+13:07:27.478 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/almacenatoxyzu.h
+13:07:27.479 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/desrefinar.h
+13:07:27.480 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/adaptercomputationalgeometry.cpp
+13:07:27.482 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/deformar.cpp
+13:07:27.483 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIFaceMatcher_glade.cc
+13:07:27.485 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/SimpleGLScenePrimario.hh
+13:07:27.486 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/vect.cpp
+13:07:27.487 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDesrefinar_glade.hh
+13:07:27.487 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/algrefinamientomallacuadrilateros.h
+13:07:27.488 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/generafrommedula.h
+13:07:27.488 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/caras.cpp
+13:07:27.489 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/almacenatocomsol_1.cpp
+13:07:27.489 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogCambios_glade.cc
+13:07:27.491 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/punto.h
+13:07:27.491 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/movimientosAUV.h
+13:07:27.492 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogRefinar.hh
+13:07:27.492 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAbrirMatlab.hh
+13:07:27.493 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/algmejoramientomallatriangulos.h
+13:07:27.493 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/nodos.h
+13:07:27.494 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/delaunaylongestedgebisection.h
+13:07:27.494 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInformacion_glade.hh
+13:07:27.495 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/polinomio.h
+13:07:27.495 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/distribuirhormona.cpp
+13:07:27.498 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/arcos.cpp
+13:07:27.507 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAbrirMatlab.cc
+13:07:27.508 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/triangular.cpp
+13:07:27.509 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/cuadrangular.cpp
+13:07:27.510 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/interpolador.h
+13:07:27.510 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/algdesrefinamiento.h
+13:07:27.510 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInicio_glade.cc
+13:07:27.511 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/distribuirhormona.h
+13:07:27.512 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInicio_glade.hh
+13:07:27.512 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/algdesplazamiento.h
+13:07:27.513 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/fabricaalgoritmos.h
+13:07:27.515 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/refinar.h
+13:07:27.519 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/criterio.h
+13:07:27.520 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/generacilindro.cpp
+13:07:27.524 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/mejdelaunay.cpp
+13:07:27.525 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/generacilindro.h
+13:07:27.525 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/verificacionnodosvecinos.h
+13:07:27.526 DEBUG .c.SonarBridgeEngine - Populating index from /home/niko/Escritorio/FaceParamAnimator/src/baricentro.cpp
+13:07:27.531 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/almacenatomlldebug.cpp
+13:07:27.719 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/generar.h
+13:07:27.719 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/algcentrotriangulo.h
+13:07:27.719 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/interfacemanualregistration.cpp
+13:07:27.720 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogCambios.cc
+13:07:27.720 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaPrincipal.cc
+13:07:27.736 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/algmejoramientomallacuadrilateros.h
+13:07:27.736 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDesrefinar.hh
+13:07:27.736 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/algdesplazamientomallatriangulos.h
+13:07:27.737 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDesrefinar_glade.cc
+13:07:27.743 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GLMainScene.cc
+13:07:27.770 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13279
+13:07:27.770 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/generafrommedula.cpp
+13:07:27.801 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13280
+13:07:27.801 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/mejorar.cpp
+13:07:27.801 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/generafromwfm.cpp
+13:07:27.821 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13281
+13:07:27.821 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/verificacionlocal.h
+13:07:27.821 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/mejorar.h
+13:07:27.821 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaPrincipal.hh
+13:07:27.822 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/generafromoff.cpp
+13:07:27.830 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13282
+13:07:27.830 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUI_AUVSelector.cc
+13:07:27.830 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/refinar.cpp
+13:07:27.831 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaTreeGrowth.cpp
+13:07:27.831 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAbrirMatlab_glade.hh
+13:07:27.841 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogRefinar_glade.cc
+13:07:27.843 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/mallatriangulos.cpp
+13:07:27.884 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13283
+13:07:27.884 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/interpoladorMixto.h
+13:07:27.884 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/SimpleGLScenePrimario.cc
+13:07:27.891 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13284
+13:07:27.891 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/cuadrangular.h
+13:07:27.892 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/movimientosAUV.cpp
+13:07:27.904 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13285
+13:07:27.904 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/triangular.h
+13:07:27.905 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIFaceMatcher.cc
+13:07:27.906 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAlgCentro_glade.cc
+13:07:27.907 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/movimientosFromFile.cpp
+13:07:27.908 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/desrefinamientoedgecollapse.h
+13:07:27.908 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogNuevaMalla.cc
+13:07:27.909 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/generafrommatlab.cpp
+13:07:27.931 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13286
+13:07:27.932 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/guardar.h
+13:07:27.932 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/LoadTextures.h
+13:07:27.932 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/generafromarchivosxyzu.h
+13:07:27.933 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInicio.hh
+13:07:27.933 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/generafromoff.h
+13:07:27.933 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/informar.cpp
+13:07:27.934 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/polinomio.cpp
+13:07:27.935 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDistribuirHormona_glade.hh
+13:07:27.936 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUI_AUVSelector.hh
+13:07:27.937 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/noverificacion.h
+13:07:27.937 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/malla.h
+13:07:27.938 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/areacara.cpp
+13:07:27.939 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/algdesplazamientomallacuadrilateros.h
+13:07:27.939 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/desrefinamientoedgecollapse.cpp
+13:07:27.939 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/fabricaalgoritmosmallacuadrilateros.cpp
+13:07:27.940 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/SimpleGLSceneSecundario.cc
+13:07:27.940 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/triangulo.h
+13:07:27.949 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/verificacionlocal.cpp
+13:07:27.950 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/nodos.cpp
+13:07:27.985 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13287
+13:07:27.985 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/definiciones.h
+13:07:27.985 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/cara.h
+13:07:27.985 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDistribuirHormona_glade.cc
+13:07:27.986 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/fabricaalgoritmosmallacuadrilateros.h
+13:07:27.986 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIFaceMatcher.hh
+13:07:27.987 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/largoarcominimo.cpp
+13:07:27.987 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/nodo.cpp
+13:07:27.988 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/caras.h
+13:07:27.988 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/informar.h
+13:07:27.988 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/almacenatooff.h
+13:07:27.988 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/noverificacion.cpp
+13:07:27.989 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/SimpleGLSceneSecundario.hh
+13:07:27.989 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/comando.cpp
+13:07:27.989 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/largoarcomaximo.cpp
+13:07:27.989 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/alggeneracion.h
+13:07:27.989 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaFaceModeling.hh
+13:07:27.990 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GLMainScene.hh
+13:07:27.990 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/delaunaylongestedgebisection.cpp
+13:07:27.990 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogNuevaMalla.hh
+13:07:27.990 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaPrincipal_glade.hh
+13:07:27.992 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/treegrowthsimulator.cc
+13:07:27.993 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/lepp.cpp
+13:07:27.993 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaTreeGrowth.hh
+13:07:27.993 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/deformar.h
+13:07:27.993 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/nodo.h
+13:07:27.994 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/comando.h
+13:07:27.994 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/SimpleGLScene.cc
+13:07:27.994 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/SimpleGLScene.hh
+13:07:27.995 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/algrefinamiento.h
+13:07:27.995 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/adaptercomputationalgeometry.h
+13:07:27.995 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/informacionmalla.h
+13:07:27.995 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUI_AUVSelector_glade.cc
+13:07:27.996 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/leppdelaunay.h
+13:07:27.996 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/algrefinamientomallatriangulos.h
+13:07:27.996 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/segmenttriangleintersection.cpp
+13:07:27.997 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/areacara.h
+13:07:27.997 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/cuadrilatero.cpp
+13:07:27.998 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogCambios_glade.hh
+13:07:27.999 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/interpoladorMixto.cpp
+13:07:28.013 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13288
+13:07:28.013 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInformacion_glade.cc
+13:07:28.014 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/mejdelaunay.h
+13:07:28.015 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/malla.cpp
+13:07:28.029 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13289
+13:07:28.029 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/algalmacenamiento.h
+13:07:28.029 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/fabricaalgoritmosmallatriangulos.cpp
+13:07:28.030 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAlgCentro.cc
+13:07:28.030 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/generafromwrl.cpp
+13:07:28.042 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13290
+13:07:28.043 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/angulominimo.cpp
+13:07:28.043 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/movimientosFromFile.h
+13:07:28.043 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/mallacuadrilateros.h
+13:07:28.043 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/interpoladorNodosCercanos.cpp
+13:07:28.049 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13291
+13:07:28.049 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/algTriangulacion.h
+13:07:28.050 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/verificacionnodosvecinos.cpp
+13:07:28.057 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13292
+13:07:28.057 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogRefinar.cc
+13:07:28.057 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/interfacemanualregistration.h
+13:07:28.058 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAlgCentro.hh
+13:07:28.058 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAlgCentro_glade.hh
+13:07:28.059 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/angulominimo.h
+13:07:28.059 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/cuadrilatero.h
+13:07:28.059 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/verificacionnodosvecinoscolapsoregion.cpp
+13:07:28.065 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13293
+13:07:28.065 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/generafromcomsol_1.cpp
+13:07:28.082 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13294
+13:07:28.082 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/informacionmalla.cpp
+13:07:28.083 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/algdesrefinamientomallacuadrilateros.h
+13:07:28.083 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/fabricaalgoritmosmallatriangulos.h
+13:07:28.083 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/almacenatoxyzu.cpp
+13:07:28.087 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13295
+13:07:28.087 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/mallacuadrilateros.cpp
+13:07:28.093 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13296
+13:07:28.093 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/almacenatomlldebug.h
+13:07:28.093 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/ScalesForParameters.cc
+13:07:28.093 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/desrefinar.cpp
+13:07:28.094 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/algmejoramiento.h
+13:07:28.094 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInformacion.cc
+13:07:28.094 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/almacenatooff.cpp
+13:07:28.094 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInicio.cc
+13:07:28.095 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/generafromwfm.h
+13:07:28.095 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/generar.cpp
+13:07:28.095 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIFaceMatcher_glade.hh
+13:07:28.097 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/largoarcomaximo.h
+13:07:28.098 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/verificacionnodosvecinoscolapsoregion.h
+13:07:28.098 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/baricentro.h
+13:07:28.098 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDistribuirHormona.cc
+13:07:28.098 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/LoadTextures.cpp
+13:07:28.099 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/generafromcomsol_1.h
+13:07:28.099 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/triangulo.cpp
+13:07:28.100 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/config.h
+13:07:28.100 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/algdesrefinamientomallatriangulos.h
+13:07:28.101 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaFaceModeling.cpp
+13:07:28.102 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/ScalesForParameters.h
+13:07:28.103 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/guardar.cpp
+13:07:28.103 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/punto.cpp
+13:07:28.103 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/interpoladorNodosCercanos.h
+13:07:28.103 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/vect.h
+13:07:28.104 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogNuevaMalla_glade.cc
+13:07:28.109 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13297
+13:07:28.109 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAbrirMatlab_glade.cc
+13:07:28.112 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13298
+13:07:28.113 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/generafrommatlab.h
+13:07:28.113 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/leppdelaunay.cpp
+13:07:28.113 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUI_AUVSelector_glade.hh
+13:07:28.114 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/cara.cpp
+13:07:28.121 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13299
+13:07:28.121 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/movimientosNodos.h
+13:07:28.121 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/arco.cpp
+13:07:28.122 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogRefinar_glade.hh
+13:07:28.123 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/mallatriangulos.h
+13:07:28.123 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/almacenatocomsol_1.h
+13:07:28.123 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInformacion.hh
+13:07:28.123 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/generafromarchivosxyzu.cpp
+13:07:28.130 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13300
+13:07:28.130 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDistribuirHormona.hh
+13:07:28.131 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/arcos.h
+13:07:28.131 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/segmenttriangleintersection.h
+13:07:28.131 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/generafromwrl.h
+13:07:28.132 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/largoarcominimo.h
+13:07:28.132 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDesrefinar.cc
+13:07:28.132 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/lepp.h
+13:07:28.132 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/arco.h
+13:07:28.133 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaPrincipal_glade.cc
+13:07:28.134 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogNuevaMalla_glade.hh
+13:07:28.136 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/registrationmethod.h
+13:07:28.136 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogCambios.hh
+13:07:28.137 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/almacenatoxyzu.h
+13:07:28.137 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/desrefinar.h
+13:07:28.137 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/adaptercomputationalgeometry.cpp
+13:07:28.141 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13301
+13:07:28.141 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/deformar.cpp
+13:07:28.141 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIFaceMatcher_glade.cc
+13:07:28.142 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/SimpleGLScenePrimario.hh
+13:07:28.142 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/vect.cpp
+13:07:28.143 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDesrefinar_glade.hh
+13:07:28.144 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/algrefinamientomallacuadrilateros.h
+13:07:28.144 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/generafrommedula.h
+13:07:28.144 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/caras.cpp
+13:07:28.144 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/almacenatocomsol_1.cpp
+13:07:28.147 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13302
+13:07:28.148 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogCambios_glade.cc
+13:07:28.148 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/punto.h
+13:07:28.149 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/movimientosAUV.h
+13:07:28.149 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogRefinar.hh
+13:07:28.149 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAbrirMatlab.hh
+13:07:28.149 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/algmejoramientomallatriangulos.h
+13:07:28.149 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/nodos.h
+13:07:28.150 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/delaunaylongestedgebisection.h
+13:07:28.150 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInformacion_glade.hh
+13:07:28.151 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/polinomio.h
+13:07:28.151 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/distribuirhormona.cpp
+13:07:28.152 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/arcos.cpp
+13:07:28.152 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAbrirMatlab.cc
+13:07:28.152 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/triangular.cpp
+13:07:28.153 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/cuadrangular.cpp
+13:07:28.153 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/interpolador.h
+13:07:28.153 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/algdesrefinamiento.h
+13:07:28.153 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInicio_glade.cc
+13:07:28.153 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/distribuirhormona.h
+13:07:28.154 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInicio_glade.hh
+13:07:28.155 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/algdesplazamiento.h
+13:07:28.155 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/fabricaalgoritmos.h
+13:07:28.155 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/refinar.h
+13:07:28.155 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/criterio.h
+13:07:28.155 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/generacilindro.cpp
+13:07:28.180 DEBUG .b.i.MemoryOptimizer - Remove data measure from memory: duplications_data, id=13303
+13:07:28.180 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/mejdelaunay.cpp
+13:07:28.181 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/generacilindro.h
+13:07:28.181 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/verificacionnodosvecinos.h
+13:07:28.181 DEBUG .c.SonarBridgeEngine - Detection of duplications for /home/niko/Escritorio/FaceParamAnimator/src/baricentro.cpp
+13:07:28.182 INFO  p.PhasesTimeProfiler - Sensor CpdSensor done: 1779 ms
+13:07:28.182 INFO  p.PhasesTimeProfiler - Sensor CxxSquidSensor...
+13:07:28.215 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/almacenatomlldebug.cpp'
+13:07:28.274 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/generar.h'
+13:07:28.293 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/algcentrotriangulo.h'
+13:07:28.295 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/interfacemanualregistration.cpp'
+13:07:28.298 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogCambios.cc'
+13:07:28.307 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaPrincipal.cc'
+13:07:28.419 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/algmejoramientomallacuadrilateros.h'
+13:07:28.419 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDesrefinar.hh'
+13:07:28.421 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/algdesplazamientomallatriangulos.h'
+13:07:28.421 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDesrefinar_glade.cc'
+13:07:28.433 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GLMainScene.cc'
+13:07:28.450 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/generafrommedula.cpp'
+13:07:28.454 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/mejorar.cpp'
+13:07:28.455 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/generafromwfm.cpp'
+13:07:28.466 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/verificacionlocal.h'
+13:07:28.468 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/mejorar.h'
+13:07:28.469 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaPrincipal.hh'
+13:07:28.470 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/generafromoff.cpp'
+13:07:28.471 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUI_AUVSelector.cc'
+13:07:28.472 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/refinar.cpp'
+13:07:28.481 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaTreeGrowth.cpp'
+13:07:28.482 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAbrirMatlab_glade.hh'
+13:07:28.484 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogRefinar_glade.cc'
+13:07:28.486 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/mallatriangulos.cpp'
+13:07:28.510 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/interpoladorMixto.h'
+13:07:28.510 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/SimpleGLScenePrimario.cc'
+13:07:28.513 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/cuadrangular.h'
+13:07:28.513 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/movimientosAUV.cpp'
+13:07:28.515 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/triangular.h'
+13:07:28.515 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIFaceMatcher.cc'
+13:07:28.518 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAlgCentro_glade.cc'
+13:07:28.520 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/movimientosFromFile.cpp'
+13:07:28.521 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/desrefinamientoedgecollapse.h'
+13:07:28.521 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogNuevaMalla.cc'
+13:07:28.523 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/generafrommatlab.cpp'
+13:07:28.526 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/guardar.h'
+13:07:28.526 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/LoadTextures.h'
+13:07:28.530 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/generafromarchivosxyzu.h'
+13:07:28.530 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInicio.hh'
+13:07:28.531 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/generafromoff.h'
+13:07:28.532 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/informar.cpp'
+13:07:28.532 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/polinomio.cpp'
+13:07:28.533 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDistribuirHormona_glade.hh'
+13:07:28.534 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUI_AUVSelector.hh'
+13:07:28.535 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/noverificacion.h'
+13:07:28.535 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/malla.h'
+13:07:28.539 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/areacara.cpp'
+13:07:28.540 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/algdesplazamientomallacuadrilateros.h'
+13:07:28.540 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/desrefinamientoedgecollapse.cpp'
+13:07:28.541 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/fabricaalgoritmosmallacuadrilateros.cpp'
+13:07:28.542 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/SimpleGLSceneSecundario.cc'
+13:07:28.543 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/triangulo.h'
+13:07:28.544 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/verificacionlocal.cpp'
+13:07:28.554 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/nodos.cpp'
+13:07:28.566 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/definiciones.h'
+13:07:28.567 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/cara.h'
+13:07:28.570 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDistribuirHormona_glade.cc'
+13:07:28.571 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/fabricaalgoritmosmallacuadrilateros.h'
+13:07:28.572 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIFaceMatcher.hh'
+13:07:28.573 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/largoarcominimo.cpp'
+13:07:28.573 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/nodo.cpp'
+13:07:28.574 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/caras.h'
+13:07:28.575 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/informar.h'
+13:07:28.576 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/almacenatooff.h'
+13:07:28.576 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/noverificacion.cpp'
+13:07:28.576 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/SimpleGLSceneSecundario.hh'
+13:07:28.577 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/comando.cpp'
+13:07:28.577 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/largoarcomaximo.cpp'
+13:07:28.578 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/alggeneracion.h'
+13:07:28.578 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaFaceModeling.hh'
+13:07:28.579 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GLMainScene.hh'
+13:07:28.579 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/delaunaylongestedgebisection.cpp'
+13:07:28.585 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogNuevaMalla.hh'
+13:07:28.585 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaPrincipal_glade.hh'
+13:07:28.587 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/treegrowthsimulator.cc'
+13:07:28.588 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/lepp.cpp'
+13:07:28.588 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaTreeGrowth.hh'
+13:07:28.589 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/deformar.h'
+13:07:28.589 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/nodo.h'
+13:07:28.590 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/comando.h'
+13:07:28.591 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/SimpleGLScene.cc'
+13:07:28.593 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/SimpleGLScene.hh'
+13:07:28.593 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/algrefinamiento.h'
+13:07:28.594 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/adaptercomputationalgeometry.h'
+13:07:28.594 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/informacionmalla.h'
+13:07:28.595 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUI_AUVSelector_glade.cc'
+13:07:28.596 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/leppdelaunay.h'
+13:07:28.597 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/algrefinamientomallatriangulos.h'
+13:07:28.597 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/segmenttriangleintersection.cpp'
+13:07:28.601 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/areacara.h'
+13:07:28.601 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/cuadrilatero.cpp'
+13:07:28.602 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogCambios_glade.hh'
+13:07:28.603 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/interpoladorMixto.cpp'
+13:07:28.612 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInformacion_glade.cc'
+13:07:28.625 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/mejdelaunay.h'
+13:07:28.626 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/malla.cpp'
+13:07:28.641 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/algalmacenamiento.h'
+13:07:28.642 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/fabricaalgoritmosmallatriangulos.cpp'
+13:07:28.642 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAlgCentro.cc'
+13:07:28.643 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/generafromwrl.cpp'
+13:07:28.646 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/angulominimo.cpp'
+13:07:28.647 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/movimientosFromFile.h'
+13:07:28.647 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/mallacuadrilateros.h'
+13:07:28.648 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/interpoladorNodosCercanos.cpp'
+13:07:28.659 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/algTriangulacion.h'
+13:07:28.660 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/verificacionnodosvecinos.cpp'
+13:07:28.662 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogRefinar.cc'
+13:07:28.662 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/interfacemanualregistration.h'
+13:07:28.663 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAlgCentro.hh'
+13:07:28.664 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAlgCentro_glade.hh'
+13:07:28.664 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/angulominimo.h'
+13:07:28.665 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/cuadrilatero.h'
+13:07:28.666 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/verificacionnodosvecinoscolapsoregion.cpp'
+13:07:28.667 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/generafromcomsol_1.cpp'
+13:07:28.668 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/informacionmalla.cpp'
+13:07:28.669 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/algdesrefinamientomallacuadrilateros.h'
+13:07:28.669 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/fabricaalgoritmosmallatriangulos.h'
+13:07:28.669 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/almacenatoxyzu.cpp'
+13:07:28.670 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/mallacuadrilateros.cpp'
+13:07:28.672 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/almacenatomlldebug.h'
+13:07:28.673 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/ScalesForParameters.cc'
+13:07:28.674 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/desrefinar.cpp'
+13:07:28.674 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/algmejoramiento.h'
+13:07:28.674 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInformacion.cc'
+13:07:28.675 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/almacenatooff.cpp'
+13:07:28.676 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInicio.cc'
+13:07:28.676 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/generafromwfm.h'
+13:07:28.677 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/generar.cpp'
+13:07:28.678 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIFaceMatcher_glade.hh'
+13:07:28.679 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/largoarcomaximo.h'
+13:07:28.679 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/verificacionnodosvecinoscolapsoregion.h'
+13:07:28.680 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/baricentro.h'
+13:07:28.680 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDistribuirHormona.cc'
+13:07:28.681 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/LoadTextures.cpp'
+13:07:28.682 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/generafromcomsol_1.h'
+13:07:28.682 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/triangulo.cpp'
+13:07:28.683 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/config.h'
+13:07:28.683 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/algdesrefinamientomallatriangulos.h'
+13:07:28.684 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaFaceModeling.cpp'
+13:07:28.685 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/ScalesForParameters.h'
+13:07:28.686 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/guardar.cpp'
+13:07:28.686 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/punto.cpp'
+13:07:28.686 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/interpoladorNodosCercanos.h'
+13:07:28.687 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/vect.h'
+13:07:28.688 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogNuevaMalla_glade.cc'
+13:07:28.690 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAbrirMatlab_glade.cc'
+13:07:28.691 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/generafrommatlab.h'
+13:07:28.692 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/leppdelaunay.cpp'
+13:07:28.693 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUI_AUVSelector_glade.hh'
+13:07:28.694 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/cara.cpp'
+13:07:28.696 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/movimientosNodos.h'
+13:07:28.696 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/arco.cpp'
+13:07:28.697 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogRefinar_glade.hh'
+13:07:28.698 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/mallatriangulos.h'
+13:07:28.699 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/almacenatocomsol_1.h'
+13:07:28.699 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInformacion.hh'
+13:07:28.700 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/generafromarchivosxyzu.cpp'
+13:07:28.701 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDistribuirHormona.hh'
+13:07:28.701 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/arcos.h'
+13:07:28.702 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/segmenttriangleintersection.h'
+13:07:28.703 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/generafromwrl.h'
+13:07:28.704 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/largoarcominimo.h'
+13:07:28.704 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDesrefinar.cc'
+13:07:28.705 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/lepp.h'
+13:07:28.705 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/arco.h'
+13:07:28.706 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIVentanaPrincipal_glade.cc'
+13:07:28.711 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogNuevaMalla_glade.hh'
+13:07:28.712 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/registrationmethod.h'
+13:07:28.712 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogCambios.hh'
+13:07:28.713 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/almacenatoxyzu.h'
+13:07:28.713 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/desrefinar.h'
+13:07:28.713 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/adaptercomputationalgeometry.cpp'
+13:07:28.714 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/deformar.cpp'
+13:07:28.714 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIFaceMatcher_glade.cc'
+13:07:28.717 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/SimpleGLScenePrimario.hh'
+13:07:28.718 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/vect.cpp'
+13:07:28.718 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogDesrefinar_glade.hh'
+13:07:28.719 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/algrefinamientomallacuadrilateros.h'
+13:07:28.719 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/generafrommedula.h'
+13:07:28.720 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/caras.cpp'
+13:07:28.721 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/almacenatocomsol_1.cpp'
+13:07:28.721 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogCambios_glade.cc'
+13:07:28.723 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/punto.h'
+13:07:28.724 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/movimientosAUV.h'
+13:07:28.724 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogRefinar.hh'
+13:07:28.725 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAbrirMatlab.hh'
+13:07:28.725 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/algmejoramientomallatriangulos.h'
+13:07:28.726 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/nodos.h'
+13:07:28.727 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/delaunaylongestedgebisection.h'
+13:07:28.727 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInformacion_glade.hh'
+13:07:28.728 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/polinomio.h'
+13:07:28.729 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/distribuirhormona.cpp'
+13:07:28.731 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/arcos.cpp'
+13:07:28.732 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogAbrirMatlab.cc'
+13:07:28.733 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/triangular.cpp'
+13:07:28.733 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/cuadrangular.cpp'
+13:07:28.733 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/interpolador.h'
+13:07:28.734 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/algdesrefinamiento.h'
+13:07:28.734 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInicio_glade.cc'
+13:07:28.735 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/distribuirhormona.h'
+13:07:28.735 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/GUIDialogInicio_glade.hh'
+13:07:28.736 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/algdesplazamiento.h'
+13:07:28.736 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/fabricaalgoritmos.h'
+13:07:28.737 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/refinar.h'
+13:07:28.737 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/criterio.h'
+13:07:28.738 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/generacilindro.cpp'
+13:07:28.739 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/mejdelaunay.cpp'
+13:07:28.740 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/generacilindro.h'
+13:07:28.741 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/verificacionnodosvecinos.h'
+13:07:28.741 DEBUG            CxxPlugin - Saving size measures for file '/home/niko/Escritorio/FaceParamAnimator/src/baricentro.cpp'
+13:07:28.742 INFO  p.PhasesTimeProfiler - Sensor CxxSquidSensor done: 560 ms
+13:07:28.742 INFO  p.PhasesTimeProfiler - Sensor CxxRatsSensor...
+13:07:28.742 DEBUG            CxxPlugin - Using pattern 'rats-reports/rats-result-*.xml' to find reports
+13:07:28.751 INFO  p.PhasesTimeProfiler - Sensor CxxRatsSensor done: 9 ms
+13:07:28.752 INFO  p.PhasesTimeProfiler - Sensor CxxXunitSensor...
+13:07:28.752 DEBUG            CxxPlugin - Using pattern 'xunit-reports/xunit-result-*.xml' to find reports
+13:07:28.752 INFO  p.PhasesTimeProfiler - Sensor CxxXunitSensor done: 1 ms
+13:07:28.752 INFO  p.PhasesTimeProfiler - Sensor CxxGcovrSensor...
+13:07:28.752 DEBUG            CxxPlugin - Using pattern 'gcovr-reports/gcovr-result-*.xml' to find reports
+13:07:28.752 INFO  p.PhasesTimeProfiler - Sensor CxxGcovrSensor done: 0 ms
+13:07:28.752 INFO  p.PhasesTimeProfiler - Sensor CxxCppCheckSensor...
+13:07:28.752 DEBUG            CxxPlugin - Using pattern 'cppcheck-report-*.xml' to find reports
+13:07:28.754 INFO  p.PhasesTimeProfiler - Sensor CxxCppCheckSensor done: 2 ms
+13:07:28.754 INFO  p.PhasesTimeProfiler - Sensor CxxCppNcssSensor...
+13:07:28.754 DEBUG            CxxPlugin - Using pattern 'cppncss-reports/cppncss-result-*.xml' to find reports
+13:07:28.754 INFO  p.PhasesTimeProfiler - Sensor CxxCppNcssSensor done: 0 ms
+13:07:28.754 INFO  p.PhasesTimeProfiler - Sensor CxxVeraxxSensor...
+13:07:28.755 DEBUG            CxxPlugin - Using pattern 'vera++-reports/vera++-result-*.xml' to find reports
+13:07:28.755 INFO  p.PhasesTimeProfiler - Sensor CxxVeraxxSensor done: 1 ms
+13:07:28.755 INFO  p.PhasesTimeProfiler - Sensor CxxValgrindSensor...
+13:07:28.755 DEBUG            CxxPlugin - Using pattern 'valgrind-reports/valgrind-result-*.xml' to find reports
+13:07:28.756 INFO  p.PhasesTimeProfiler - Sensor CxxValgrindSensor done: 1 ms
+13:07:28.756 INFO  p.PhasesTimeProfiler - Sensor ProfileSensor...
+13:07:29.250 INFO  p.PhasesTimeProfiler - Sensor ProfileSensor done: 494 ms
+13:07:29.250 INFO  p.PhasesTimeProfiler - Sensor ProfileEventsSensor...
+13:07:29.269 INFO  p.PhasesTimeProfiler - Sensor ProfileEventsSensor done: 19 ms
+13:07:29.270 INFO  p.PhasesTimeProfiler - Sensor ProjectLinksSensor...
+13:07:29.273 INFO  p.PhasesTimeProfiler - Sensor ProjectLinksSensor done: 3 ms
+13:07:29.273 INFO  p.PhasesTimeProfiler - Sensor VersionEventsSensor...
+13:07:29.280 INFO  p.PhasesTimeProfiler - Sensor VersionEventsSensor done: 7 ms
+13:07:29.281 INFO  p.PhasesTimeProfiler - Sensor org.sonar.plugins.artifactsize.ArtifactSizeSensor@13596e0...
+13:07:29.281 INFO  a.ArtifactSizeSensor - The file null does not exist
+13:07:29.281 INFO  p.PhasesTimeProfiler - Sensor org.sonar.plugins.artifactsize.ArtifactSizeSensor@13596e0 done: 0 ms
+13:07:29.704 INFO  p.PhasesTimeProfiler - Execute decorators...
+13:07:29.704 DEBUG p.PhasesTimeProfiler - Decorators: ManualMeasureDecorator -> SumDuplicationsDecorator -> UnitTestDecorator -> org.sonar.plugins.core.security.ApplyProjectRolesDecorator@2d67b4 -> org.sonar.plugins.core.sensors.DirectoriesDecorator@6cea8a -> org.sonar.plugins.core.sensors.FilesDecorator@9a3139 -> ManualViolationInjector -> org.sonar.plugins.core.timemachine.TimeMachineConfigurationPersister@1fa6e43 -> org.sonar.plugins.core.timemachine.NewCoverageFileAnalyzer@17c6631 -> org.sonar.plugins.core.timemachine.NewItCoverageFileAnalyzer@194bf0 -> org.sonar.plugins.core.timemachine.NewOverallCoverageFileAnalyzer@c8aada -> org.sonar.plugins.core.timemachine.NewCoverageAggregator@48dcf9 -> org.sonar.plugins.design.batch.ProjectDsmDecorator@5d21ef -> FileTangleIndexDecorator -> org.sonar.plugins.design.batch.SuspectLcom4DensityDecorator@43e3ac -> org.sonar.plugins.uselesscodetracker.decorator.TempMethodLinesDecorator@118618d -> org.sonar.plugins.uselesscodetracker.decorator.DuplicationsDecorator@1b1bbe8 -> org.sonar.plugins.uselesscodetracker.decorator.DeadCodeDecorator@1a78257 -> f(lines) -> f(generated_lines) -> f(ncloc) -> f(generated_ncloc) -> f(classes) -> f(packages) -> f(functions) -> f(accessors) -> f(paragraphs) -> f(statements) -> f(public_api) -> f(comment_lines) -> f(comment_blank_lines) -> f(public_undocumented_api) -> f(commented_out_code_lines) -> f(complexity) -> f(class_complexity_distribution) -> f(function_complexity_distribution) -> f(file_complexity_distribution) -> f(paragraph_complexity_distribution) -> f(lines_to_cover) -> f(uncovered_lines) -> f(conditions_to_cover) -> f(uncovered_conditions) -> f(it_lines_to_cover) -> f(it_uncovered_lines) -> f(it_conditions_to_cover) -> f(it_uncovered_conditions) -> f(overall_lines_to_cover) -> f(overall_uncovered_lines) -> f(overall_conditions_to_cover) -> f(overall_uncovered_conditions) -> f(rfc) -> f(rfc_distribution) -> f(lcom4) -> f(lcom4_distribution) -> f(package_cycles) -> f(package_tangles) -> f(package_feedback_edges) -> f(package_edges_weight) -> f(new_lines_to_cover) -> f(new_uncovered_lines) -> f(new_conditions_to_cover) -> f(new_uncovered_conditions) -> f(new_it_lines_to_cover) -> f(new_it_uncovered_lines) -> f(new_it_conditions_to_cover) -> f(new_it_uncovered_conditions) -> f(new_overall_lines_to_cover) -> f(new_overall_uncovered_lines) -> f(new_overall_conditions_to_cover) -> f(new_overall_uncovered_conditions) -> org.sonar.plugins.cpd.decorators.DuplicationDensityDecorator@1cfb151 -> CommentDensityDecorator -> ViolationTrackingDecorator -> PackageTangleIndexDecorator -> org.sonar.plugins.uselesscodetracker.decorator.TotalDecorator@1ac8e4a -> f(class_complexity) -> f(function_complexity) -> f(file_complexity) -> f(paragraph_complexity) -> org.sonar.plugins.core.sensors.LineCoverageDecorator@864ae7 -> org.sonar.plugins.core.sensors.CoverageDecorator@9f987a -> org.sonar.plugins.core.sensors.BranchCoverageDecorator@1d37602 -> org.sonar.plugins.core.sensors.ItLineCoverageDecorator@1e890b4 -> org.sonar.plugins.core.sensors.ItCoverageDecorator@1744996 -> org.sonar.plugins.core.sensors.ItBranchCoverageDecorator@18b3f9a -> org.sonar.plugins.core.sensors.OverallLineCoverageDecorator@fcc66a -> org.sonar.plugins.core.sensors.OverallCoverageDecorator@14662e3 -> org.sonar.plugins.core.sensors.OverallBranchCoverageDecorator@62df1 -> ViolationSeverityUpdater -> ViolationsDecorator -> org.sonar.plugins.core.sensors.ReviewWorkflowDecorator@f35d97 -> org.sonar.plugins.core.timemachine.ViolationPersisterDecorator@1e7c7fb -> NewViolationsDecorator -> org.sonar.plugins.core.sensors.WeightedViolationsDecorator@79bca4 -> org.sonar.plugins.core.sensors.ReviewsMeasuresDecorator@1159684 -> ViolationsDensityDecorator -> org.sonar.plugins.core.timemachine.TendencyDecorator@15a8fff -> VariationDecorator
+13:07:29.795 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13279
+13:07:29.857 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:29.863 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13280
+13:07:29.865 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:29.876 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13281
+13:07:29.877 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:29.916 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13282
+13:07:29.918 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:29.948 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13283
+13:07:29.950 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:29.959 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13284
+13:07:29.960 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:29.969 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13285
+13:07:29.970 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:30.004 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13286
+13:07:30.006 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:30.099 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13287
+13:07:30.100 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:30.246 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13288
+13:07:30.247 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:30.260 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13289
+13:07:30.260 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:30.276 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13290
+13:07:30.278 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:30.294 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13291
+13:07:30.295 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:30.303 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13292
+13:07:30.304 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:30.328 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13293
+13:07:30.329 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:30.333 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13294
+13:07:30.335 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:30.350 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13295
+13:07:30.351 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:30.354 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13296
+13:07:30.356 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:30.426 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13297
+13:07:30.427 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:30.430 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13298
+13:07:30.431 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:30.446 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13299
+13:07:30.447 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:30.472 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13300
+13:07:30.473 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:30.515 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13301
+13:07:30.516 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:30.542 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13302
+13:07:30.542 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:30.629 DEBUG .b.i.MemoryOptimizer - Reload the data measure: duplications_data, id=13303
+13:07:30.630 DEBUG .b.i.MemoryOptimizer - Flush 1 data measures from memory: 
+13:07:30.750 DEBUG p.PhasesTimeProfiler - Decorator time:
+	ManualMeasureDecorator: 157ms
+	SumDuplicationsDecorator: 18ms
+	UnitTestDecorator: 4ms
+	org.sonar.plugins.core.security.ApplyProjectRolesDecorator@2d67b4: 4ms
+	org.sonar.plugins.core.sensors.DirectoriesDecorator@6cea8a: 2ms
+	org.sonar.plugins.core.sensors.FilesDecorator@9a3139: 9ms
+	ManualViolationInjector: 177ms
+	org.sonar.plugins.core.timemachine.TimeMachineConfigurationPersister@1fa6e43: 7ms
+	org.sonar.plugins.core.timemachine.NewCoverageFileAnalyzer@17c6631: 2ms
+	org.sonar.plugins.core.timemachine.NewItCoverageFileAnalyzer@194bf0: 0ms
+	org.sonar.plugins.core.timemachine.NewOverallCoverageFileAnalyzer@c8aada: 1ms
+	org.sonar.plugins.core.timemachine.NewCoverageAggregator@48dcf9: 3ms
+	org.sonar.plugins.design.batch.ProjectDsmDecorator@5d21ef: 1ms
+	FileTangleIndexDecorator: 2ms
+	org.sonar.plugins.design.batch.SuspectLcom4DensityDecorator@43e3ac: 1ms
+	org.sonar.plugins.uselesscodetracker.decorator.TempMethodLinesDecorator@118618d: 12ms
+	org.sonar.plugins.uselesscodetracker.decorator.DuplicationsDecorator@1b1bbe8: 115ms
+	org.sonar.plugins.uselesscodetracker.decorator.DeadCodeDecorator@1a78257: 1ms
+	f(lines): 4ms
+	f(generated_lines): 2ms
+	f(ncloc): 1ms
+	f(generated_ncloc): 3ms
+	f(classes): 1ms
+	f(packages): 1ms
+	f(functions): 4ms
+	f(accessors): 2ms
+	f(paragraphs): 0ms
+	f(statements): 0ms
+	f(public_api): 1ms
+	f(comment_lines): 0ms
+	f(comment_blank_lines): 0ms
+	f(public_undocumented_api): 1ms
+	f(commented_out_code_lines): 0ms
+	f(complexity): 1ms
+	f(class_complexity_distribution): 4ms
+	f(function_complexity_distribution): 2ms
+	f(file_complexity_distribution): 0ms
+	f(paragraph_complexity_distribution): 0ms
+	f(lines_to_cover): 0ms
+	f(uncovered_lines): 1ms
+	f(conditions_to_cover): 3ms
+	f(uncovered_conditions): 0ms
+	f(it_lines_to_cover): 1ms
+	f(it_uncovered_lines): 1ms
+	f(it_conditions_to_cover): 1ms
+	f(it_uncovered_conditions): 2ms
+	f(overall_lines_to_cover): 3ms
+	f(overall_uncovered_lines): 0ms
+	f(overall_conditions_to_cover): 4ms
+	f(overall_uncovered_conditions): 3ms
+	f(rfc): 1ms
+	f(rfc_distribution): 0ms
+	f(lcom4): 1ms
+	f(lcom4_distribution): 0ms
+	f(package_cycles): 1ms
+	f(package_tangles): 1ms
+	f(package_feedback_edges): 1ms
+	f(package_edges_weight): 1ms
+	f(new_lines_to_cover): 1ms
+	f(new_uncovered_lines): 1ms
+	f(new_conditions_to_cover): 0ms
+	f(new_uncovered_conditions): 1ms
+	f(new_it_lines_to_cover): 4ms
+	f(new_it_uncovered_lines): 2ms
+	f(new_it_conditions_to_cover): 3ms
+	f(new_it_uncovered_conditions): 1ms
+	f(new_overall_lines_to_cover): 1ms
+	f(new_overall_uncovered_lines): 1ms
+	f(new_overall_conditions_to_cover): 0ms
+	f(new_overall_uncovered_conditions): 2ms
+	org.sonar.plugins.cpd.decorators.DuplicationDensityDecorator@1cfb151: 12ms
+	CommentDensityDecorator: 8ms
+	ViolationTrackingDecorator: 1ms
+	PackageTangleIndexDecorator: 1ms
+	org.sonar.plugins.uselesscodetracker.decorator.TotalDecorator@1ac8e4a: 1ms
+	f(class_complexity): 1ms
+	f(function_complexity): 3ms
+	f(file_complexity): 1ms
+	f(paragraph_complexity): 1ms
+	org.sonar.plugins.core.sensors.LineCoverageDecorator@864ae7: 6ms
+	org.sonar.plugins.core.sensors.CoverageDecorator@9f987a: 3ms
+	org.sonar.plugins.core.sensors.BranchCoverageDecorator@1d37602: 6ms
+	org.sonar.plugins.core.sensors.ItLineCoverageDecorator@1e890b4: 1ms
+	org.sonar.plugins.core.sensors.ItCoverageDecorator@1744996: 4ms
+	org.sonar.plugins.core.sensors.ItBranchCoverageDecorator@18b3f9a: 11ms
+	org.sonar.plugins.core.sensors.OverallLineCoverageDecorator@fcc66a: 4ms
+	org.sonar.plugins.core.sensors.OverallCoverageDecorator@14662e3: 1ms
+	org.sonar.plugins.core.sensors.OverallBranchCoverageDecorator@62df1: 5ms
+	ViolationSeverityUpdater: 4ms
+	ViolationsDecorator: 46ms
+	org.sonar.plugins.core.sensors.ReviewWorkflowDecorator@f35d97: 5ms
+	org.sonar.plugins.core.timemachine.ViolationPersisterDecorator@1e7c7fb: 72ms
+	NewViolationsDecorator: 41ms
+	org.sonar.plugins.core.sensors.WeightedViolationsDecorator@79bca4: 26ms
+	org.sonar.plugins.core.sensors.ReviewsMeasuresDecorator@1159684: 41ms
+	ViolationsDensityDecorator: 6ms
+	org.sonar.plugins.core.timemachine.TendencyDecorator@15a8fff: 55ms
+	VariationDecorator: 18ms
+
+13:07:30.750 DEBUG b.i.MeasurePersister - 6599 measures to dump
+13:07:31.801 INFO  .b.p.UpdateStatusJob - ANALYSIS SUCCESSFUL, you can browse http://localhost:9000
+13:07:31.802 DEBUG b.p.PostJobsExecutor - Post-jobs : org.sonar.plugins.core.batch.IndexProjectPostJob@565cf8 -> org.sonar.plugins.dbcleaner.ProjectPurgePostJob@1f1d038
+13:07:31.802 INFO  b.p.PostJobsExecutor - Executing post-job class org.sonar.plugins.core.batch.IndexProjectPostJob
+13:07:31.889 INFO  b.p.PostJobsExecutor - Executing post-job class org.sonar.plugins.dbcleaner.ProjectPurgePostJob
+13:07:31.913 INFO  .p.d.p.KeepOneFilter - -> Keep one snapshot per day between 2013-01-24 and 2013-02-20
+13:07:31.914 INFO  .p.d.p.KeepOneFilter - -> Keep one snapshot per week between 2012-02-23 and 2013-01-24
+13:07:31.915 INFO  .p.d.p.KeepOneFilter - -> Keep one snapshot per month between 2008-02-28 and 2012-02-23
+13:07:31.916 INFO  .d.p.DeleteAllFilter - -> Delete data prior to: 2008-02-28
+13:07:31.919 INFO  o.s.c.purge.PurgeDao - -> Clean Memoria [id=1]
+13:07:31.926 INFO  o.s.c.purge.PurgeDao - <- Clean snapshot 1283
+13:07:32.326 DEBUG  o.s.b.b.ProjectLock - Release semaphore on project : org.sonar.api.resources.Project@825cf3[id=1,key=memoria,qualifier=TRK], with key batch-memoria
+13:07:32.340 DEBUG .b.b.TempDirectories - Delete temporary directory: /tmp/sonar-batch5519104667695990833991096292345
+Total time: 13.632s
+Final Memory: 8M/177M

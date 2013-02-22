@@ -1,0 +1,20 @@
+No tiene aristas=4
+No tiene aristas=35
+No tiene aristas=36
+No tiene aristas=37
+No tiene aristas=38
+No tiene aristas=39
+No tiene aristas=41
+No tiene aristas=42
+No tiene aristas=43
+
+
+puntos iguales = 35,2-->Point(0.0,0.539,0.085)
+puntos iguales = 36,3-->Point(0.0,0.278,0.107)
+puntos iguales = 37,4-->Point(0.0,0.213,0.085)
+puntos iguales = 38,5-->Point(0.0,-0.222,0.21)
+puntos iguales = 39,6-->Point(0.0,-0.265,0.124)
+puntos iguales = 41,8-->Point(0.0,-0.526,0.15)
+puntos iguales = 42,9-->Point(0.0,-0.591,0.107)
+puntos iguales = 43,10-->Point(0.0,-0.852,0.063)
+

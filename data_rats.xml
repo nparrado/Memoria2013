@@ -1,0 +1,208 @@
+<?xml version="1.0"?><rats_output>
+<stats>
+<dbcount lang="perl">33</dbcount>
+<dbcount lang="ruby">46</dbcount>
+<dbcount lang="python">62</dbcount>
+<dbcount lang="c">334</dbcount>
+<dbcount lang="php">55</dbcount>
+</stats>
+<analyzed>src/almacenatomlldebug.cpp</analyzed>
+<analyzed>src/interfacemanualregistration.cpp</analyzed>
+<analyzed>src/GUIDialogCambios.cc</analyzed>
+<analyzed>src/GUIVentanaPrincipal.cc</analyzed>
+<analyzed>src/GUIDialogDesrefinar_glade.cc</analyzed>
+<analyzed>src/GLMainScene.cc</analyzed>
+<analyzed>src/generafrommedula.cpp</analyzed>
+<analyzed>src/mejorar.cpp</analyzed>
+<analyzed>src/generafromwfm.cpp</analyzed>
+<analyzed>src/generafromoff.cpp</analyzed>
+<analyzed>src/GUI_AUVSelector.cc</analyzed>
+<analyzed>src/refinar.cpp</analyzed>
+<analyzed>src/GUIVentanaTreeGrowth.cpp</analyzed>
+<analyzed>src/GUIDialogRefinar_glade.cc</analyzed>
+<analyzed>src/mallatriangulos.cpp</analyzed>
+<analyzed>src/SimpleGLScenePrimario.cc</analyzed>
+<analyzed>src/movimientosAUV.cpp</analyzed>
+<analyzed>src/GUIFaceMatcher.cc</analyzed>
+<analyzed>src/GUIDialogAlgCentro_glade.cc</analyzed>
+<analyzed>src/movimientosFromFile.cpp</analyzed>
+<analyzed>src/GUIDialogNuevaMalla.cc</analyzed>
+<analyzed>src/generafrommatlab.cpp</analyzed>
+<analyzed>src/informar.cpp</analyzed>
+<analyzed>src/polinomio.cpp</analyzed>
+<analyzed>src/areacara.cpp</analyzed>
+<analyzed>src/desrefinamientoedgecollapse.cpp</analyzed>
+<analyzed>src/fabricaalgoritmosmallacuadrilateros.cpp</analyzed>
+<analyzed>src/SimpleGLSceneSecundario.cc</analyzed>
+<analyzed>src/verificacionlocal.cpp</analyzed>
+<analyzed>src/nodos.cpp</analyzed>
+<analyzed>src/GUIDialogDistribuirHormona_glade.cc</analyzed>
+<analyzed>src/largoarcominimo.cpp</analyzed>
+<analyzed>src/nodo.cpp</analyzed>
+<analyzed>src/noverificacion.cpp</analyzed>
+<analyzed>src/comando.cpp</analyzed>
+<analyzed>src/largoarcomaximo.cpp</analyzed>
+<analyzed>src/delaunaylongestedgebisection.cpp</analyzed>
+<analyzed>src/treegrowthsimulator.cc</analyzed>
+<analyzed>src/lepp.cpp</analyzed>
+<analyzed>src/SimpleGLScene.cc</analyzed>
+<analyzed>src/GUI_AUVSelector_glade.cc</analyzed>
+<analyzed>src/segmenttriangleintersection.cpp</analyzed>
+<analyzed>src/cuadrilatero.cpp</analyzed>
+<analyzed>src/interpoladorMixto.cpp</analyzed>
+<analyzed>src/GUIDialogInformacion_glade.cc</analyzed>
+<analyzed>src/malla.cpp</analyzed>
+<analyzed>src/fabricaalgoritmosmallatriangulos.cpp</analyzed>
+<analyzed>src/GUIDialogAlgCentro.cc</analyzed>
+<analyzed>src/generafromwrl.cpp</analyzed>
+<analyzed>src/angulominimo.cpp</analyzed>
+<analyzed>src/interpoladorNodosCercanos.cpp</analyzed>
+<analyzed>src/verificacionnodosvecinos.cpp</analyzed>
+<analyzed>src/GUIDialogRefinar.cc</analyzed>
+<analyzed>src/verificacionnodosvecinoscolapsoregion.cpp</analyzed>
+<analyzed>src/generafromcomsol_1.cpp</analyzed>
+<analyzed>src/informacionmalla.cpp</analyzed>
+<analyzed>src/almacenatoxyzu.cpp</analyzed>
+<analyzed>src/mallacuadrilateros.cpp</analyzed>
+<analyzed>src/ScalesForParameters.cc</analyzed>
+<analyzed>src/desrefinar.cpp</analyzed>
+<analyzed>src/GUIDialogInformacion.cc</analyzed>
+<analyzed>src/almacenatooff.cpp</analyzed>
+<analyzed>src/GUIDialogInicio.cc</analyzed>
+<analyzed>src/generar.cpp</analyzed>
+<analyzed>src/GUIDialogDistribuirHormona.cc</analyzed>
+<analyzed>src/LoadTextures.cpp</analyzed>
+<analyzed>src/triangulo.cpp</analyzed>
+<analyzed>src/GUIVentanaFaceModeling.cpp</analyzed>
+<analyzed>src/guardar.cpp</analyzed>
+<analyzed>src/punto.cpp</analyzed>
+<analyzed>src/GUIDialogNuevaMalla_glade.cc</analyzed>
+<analyzed>src/GUIDialogAbrirMatlab_glade.cc</analyzed>
+<analyzed>src/leppdelaunay.cpp</analyzed>
+<analyzed>src/cara.cpp</analyzed>
+<analyzed>src/arco.cpp</analyzed>
+<analyzed>src/generafromarchivosxyzu.cpp</analyzed>
+<analyzed>src/GUIDialogDesrefinar.cc</analyzed>
+<analyzed>src/GUIVentanaPrincipal_glade.cc</analyzed>
+<analyzed>src/adaptercomputationalgeometry.cpp</analyzed>
+<analyzed>src/deformar.cpp</analyzed>
+<analyzed>src/GUIFaceMatcher_glade.cc</analyzed>
+<analyzed>src/vect.cpp</analyzed>
+<analyzed>src/caras.cpp</analyzed>
+<analyzed>src/almacenatocomsol_1.cpp</analyzed>
+<analyzed>src/GUIDialogCambios_glade.cc</analyzed>
+<analyzed>src/distribuirhormona.cpp</analyzed>
+<analyzed>src/arcos.cpp</analyzed>
+<analyzed>src/GUIDialogAbrirMatlab.cc</analyzed>
+<analyzed>src/triangular.cpp</analyzed>
+<analyzed>src/cuadrangular.cpp</analyzed>
+<analyzed>src/GUIDialogInicio_glade.cc</analyzed>
+<analyzed>src/generacilindro.cpp</analyzed>
+<analyzed>src/mejdelaunay.cpp</analyzed>
+<analyzed>src/baricentro.cpp</analyzed>
+<vulnerability>
+  <severity>High</severity>
+  <type>fixed size global buffer</type>
+  <message>
+    Extra care should be taken to ensure that character arrays that are
+    allocated on the stack are used safely.  They are prime targets for
+    buffer overflow attacks.
+  </message>
+  <file>
+    <name>src/generafrommedula.cpp</name>
+    <line>14</line>
+  </file>
+  <file>
+    <name>src/generafromwfm.cpp</name>
+    <line>17</line>
+  </file>
+  <file>
+    <name>src/generafromoff.cpp</name>
+    <line>14</line>
+    <line>41</line>
+  </file>
+  <file>
+    <name>src/GUIFaceMatcher.cc</name>
+    <line>97</line>
+  </file>
+  <file>
+    <name>src/movimientosFromFile.cpp</name>
+    <line>15</line>
+  </file>
+  <file>
+    <name>src/generafromwrl.cpp</name>
+    <line>15</line>
+  </file>
+  <file>
+    <name>src/generafromcomsol_1.cpp</name>
+    <line>17</line>
+  </file>
+  <file>
+    <name>src/almacenatoxyzu.cpp</name>
+    <line>42</line>
+    <line>91</line>
+    <line>92</line>
+    <line>93</line>
+    <line>94</line>
+  </file>
+  <file>
+    <name>src/GUIVentanaFaceModeling.cpp</name>
+    <line>132</line>
+  </file>
+  <file>
+    <name>src/generafromarchivosxyzu.cpp</name>
+    <line>20</line>
+    <line>21</line>
+    <line>22</line>
+    <line>23</line>
+  </file>
+  <file>
+    <name>src/almacenatocomsol_1.cpp</name>
+    <line>18</line>
+  </file>
+</vulnerability>
+<vulnerability>
+  <severity>High</severity>
+  <type>fscanf</type>
+  <message>
+    Check to be sure that the format string passed as argument 2 to this
+    function call does not come from an untrusted source that could have added
+    formatting characters that the code is not prepared to handle.
+    Additionally, the format string could contain `%s' without precision that
+    could result in a buffer overflow.
+  </message>
+  <file>
+    <name>src/generafromoff.cpp</name>
+    <line>17</line>
+  </file>
+  <file>
+    <name>src/generafromarchivosxyzu.cpp</name>
+    <line>26</line>
+    <line>27</line>
+    <line>28</line>
+    <line>29</line>
+    <line>35</line>
+    <line>36</line>
+    <line>37</line>
+    <line>38</line>
+  </file>
+</vulnerability>
+<vulnerability>
+  <severity>Medium</severity>
+  <type>fgetc</type>
+  <message>
+    Check buffer boundaries if calling this function in a loop 
+and make sure you are not in danger of writing past the allocated space.
+  </message>
+  <file>
+    <name>src/generafromoff.cpp</name>
+    <line>49</line>
+    <line>53</line>
+  </file>
+</vulnerability>
+<timing>
+<total_lines>16801</total_lines>
+<total_time>0.024209</total_time>
+<lines_per_second>693998</lines_per_second>
+</timing>
+</rats_output>

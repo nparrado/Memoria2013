@@ -1,0 +1,34 @@
+./src/almacenatocomsol_1.cpp: En la función miembro ‘virtual void AlmacenaToComsol_1::aplicar(Malla*, std::string)’:
+./src/almacenatocomsol_1.cpp:50:37: aviso: conversión obsoleta de una constante de cadena a ‘char*’ [-Wwrite-strings]
+./src/almacenatocomsol_1.cpp:53:35: aviso: conversión obsoleta de una constante de cadena a ‘char*’ [-Wwrite-strings]
+./src/almacenatoxyzu.cpp: En la función miembro ‘virtual void AlmacenaToXYZU::aplicar(Malla*, std::string)’:
+./src/almacenatoxyzu.cpp:80:37: aviso: conversión obsoleta de una constante de cadena a ‘char*’ [-Wwrite-strings]
+./src/almacenatoxyzu.cpp:82:35: aviso: conversión obsoleta de una constante de cadena a ‘char*’ [-Wwrite-strings]
+./src/generafromarchivosxyzu.cpp: En la función miembro ‘virtual Malla* GeneraFromArchivosXYZU::aplicar()’:
+./src/generafromarchivosxyzu.cpp:26:39: aviso: se descarta el valor de devolución de ‘int fscanf(FILE*, const char*, ...)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafromarchivosxyzu.cpp:27:39: aviso: se descarta el valor de devolución de ‘int fscanf(FILE*, const char*, ...)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafromarchivosxyzu.cpp:28:39: aviso: se descarta el valor de devolución de ‘int fscanf(FILE*, const char*, ...)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafromarchivosxyzu.cpp:29:39: aviso: se descarta el valor de devolución de ‘int fscanf(FILE*, const char*, ...)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafromarchivosxyzu.cpp:35:45: aviso: se descarta el valor de devolución de ‘int fscanf(FILE*, const char*, ...)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafromarchivosxyzu.cpp:36:45: aviso: se descarta el valor de devolución de ‘int fscanf(FILE*, const char*, ...)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafromarchivosxyzu.cpp:37:45: aviso: se descarta el valor de devolución de ‘int fscanf(FILE*, const char*, ...)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafromarchivosxyzu.cpp:38:45: aviso: se descarta el valor de devolución de ‘int fscanf(FILE*, const char*, ...)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafromarchivosxyzu.cpp:66:32: aviso: se descarta el valor de devolución de ‘char* fgets(char*, int, FILE*)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafromarchivosxyzu.cpp:67:32: aviso: se descarta el valor de devolución de ‘char* fgets(char*, int, FILE*)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafromarchivosxyzu.cpp:68:32: aviso: se descarta el valor de devolución de ‘char* fgets(char*, int, FILE*)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafromarchivosxyzu.cpp:69:32: aviso: se descarta el valor de devolución de ‘char* fgets(char*, int, FILE*)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafromarchivosxyzu.cpp:129:34: aviso: se descarta el valor de devolución de ‘int fscanf(FILE*, const char*, ...)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafromarchivosxyzu.cpp:130:34: aviso: se descarta el valor de devolución de ‘int fscanf(FILE*, const char*, ...)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafromarchivosxyzu.cpp:131:34: aviso: se descarta el valor de devolución de ‘int fscanf(FILE*, const char*, ...)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafromarchivosxyzu.cpp:132:33: aviso: se descarta el valor de devolución de ‘int fscanf(FILE*, const char*, ...)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafrommatlab.cpp: En la función miembro ‘Malla* GeneraFromMatLab::generaMallaCuadrilateros()’:
+./src/generafrommatlab.cpp:274:36: aviso: se descarta el valor de devolución de ‘int fscanf(FILE*, const char*, ...)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafrommatlab.cpp: En la función miembro ‘Malla* GeneraFromMatLab::generaMallaTriangulos()’:
+./src/generafrommatlab.cpp:53:36: aviso: se descarta el valor de devolución de ‘int fscanf(FILE*, const char*, ...)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafromoff.cpp: En la función miembro ‘virtual Malla* GeneraFromOFF::aplicar()’:
+./src/generafromoff.cpp:17:28: aviso: se descarta el valor de devolución de ‘int fscanf(FILE*, const char*, ...)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafromoff.cpp:19:22: aviso: se descarta el valor de devolución de ‘char* fgets(char*, int, FILE*)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafromoff.cpp:26:42: aviso: se descarta el valor de devolución de ‘int fscanf(FILE*, const char*, ...)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafromoff.cpp:44:36: aviso: se descarta el valor de devolución de ‘int fscanf(FILE*, const char*, ...)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+./src/generafromoff.cpp:46:37: aviso: se descarta el valor de devolución de ‘int fscanf(FILE*, const char*, ...)’, se declaró con el atributo warn_unused_result [-Wunused-result]
+
